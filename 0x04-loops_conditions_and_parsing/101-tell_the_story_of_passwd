@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# displays the content of the file /etc/passwd, using the while loop + IFS.
 file="/etc/passwd"
 while IFS=: read -r username password userid groupid comment homedir cmdshell
 	do

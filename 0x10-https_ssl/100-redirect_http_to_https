@@ -43,5 +43,5 @@ frontend http
 
 backend web-backend
         balance roundrobin
-        server 165362-web-01 54.87.159.59
-       	server 165362-web-02 3.85.16.46
+        server 165362-web-01 54.85.47.64
+       	server 165362-web-02 34.229.161.83
